@@ -8,9 +8,14 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      animation: {
+        'slide-in-menu': 'slideInMenu 0.5s',
+      },
+      keyframes: {
+        slideInMenu: {
+          '0%': { width: '0' },
+          '100%': { width: '100%' },
+        }
       },
     },
   },
