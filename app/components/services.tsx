@@ -2,10 +2,10 @@ import Image from "next/image";
 
 export default function Services() {
   return (
-    <section className="pl-5 pr-5 pt-20 flex flex-col items-center gap-5 pb-20">
+    <section className="pl-5 pr-5 pt-20 flex flex-col items-center gap-10 pb-20">
       <h2 className="text-4xl font-bold">Services</h2>
       <h3 className="text-3xl text-center">If you can imagine it, we can achieve it</h3>
-      <ul className="flex flex-col gap-5">
+      <ul className="flex flex-col gap-10">
         <li className="bg-[#B0BBC0] p-5 flex flex-col gap-3">
           <Image
             src='/chatbot.png'
@@ -70,6 +70,7 @@ export default function Services() {
           </div>
         </li>
       </ul>
+      <button className="bg-[#000386] text-white text-xl p-5">See more</button>
     </section>
   );
 }
